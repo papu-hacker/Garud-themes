@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "01_dracula-theme",
+    "name": "01_Dracula-Theme",
     "author": "Garud",
     "semanticClass": "theme.dracula",
     "semanticHighlighting": true,
@@ -52,7 +52,7 @@
         ]
     },
     "colors": {
-        "terminal.background": "#15161d", //282A36
+        "terminal.background": "#20212B", //282A36
         "terminal.foreground": "#F8F8F2",
         "terminal.ansiBrightBlack": "#6272A4",
         "terminal.ansiBrightRed": "#FF6E6E",
@@ -102,20 +102,20 @@
         "list.inactiveSelectionBackground": "#44475A75",
         "list.warningForeground": "#FFB86C",
         "list.errorForeground": "#FF5555",
-        "activityBar.background": "#191A21", // 343746
+        "activityBar.background": "#13141a", // 343746
         "activityBar.inactiveForeground": "#6272A4",
         "activityBar.foreground": "#F8F8F2",
         "activityBar.activeBorder": "#FF79C680",
         "activityBar.activeBackground": "#BD93F910",
         "activityBarBadge.background": "#FF79C6",
         "activityBarBadge.foreground": "#F8F8F2",
-        "sideBar.background": "#21222C",
+        "sideBar.background": "#191A21", //#21222C
         "sideBarTitle.foreground": "#F8F8F2",
         "sideBarSectionHeader.background": "#21222C",
         "sideBarSectionHeader.border": "#191A21",
         "editorGroup.border": "#BD93F9",
         "editorGroup.dropBackground": "#44475A70",
-        "editorGroupHeader.tabsBackground": "#191A21",
+        "editorGroupHeader.tabsBackground": "#1C1D26", // #191A21
         "tab.activeBackground": "#15161d",
         "tab.activeForeground": "#F8F8F2",
         "tab.border": "#191A21",
@@ -199,7 +199,7 @@
         "merge.incomingHeaderBackground": "#BD93F990",
         "editorOverviewRuler.currentContentForeground": "#50FA7B",
         "editorOverviewRuler.incomingContentForeground": "#BD93F9",
-        "panel.background": "#15161d",
+        "panel.background": "#20212B", //#15161d
         "panel.border": "#BD93F9",
         "panelTitle.activeBorder": "#FF79C6",
         "panelTitle.activeForeground": "#F8F8F2",
@@ -246,7 +246,8 @@
         "breadcrumbPicker.background": "#191A21",
         "listFilterWidget.background": "#343746",
         "listFilterWidget.outline": "#424450",
-        "listFilterWidget.noMatchesOutline": "#FF5555"
+        "listFilterWidget.noMatchesOutline": "#FF5555",
+        "editorCursor.foreground": "#ab72e8"
     },
     "tokenColors": [
         {
