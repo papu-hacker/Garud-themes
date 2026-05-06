@@ -1,0 +1,32 @@
+{
+  "name": "garud-themes",
+  "displayName": "Garud-themes",
+  "description": "Fork of multiple themes",
+  "version": "0.0.1",
+  "publisher": "Garud-Hacke₹",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papu-hacker/Garud-themes.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dracula",
+    "garud"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "01_dracula-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/01_dracula-theme-color-theme.json"
+      }
+    ]
+  }
+}
