@@ -27,14 +27,16 @@
 		"sideBar.background": "#111111",
 		"sideBar.border": "#202020",
 		// Lists and trees
-		"list.activeSelectionBackground": "#fc4384",
+		"list.activeSelectionBackground": "#b65dff", // fc4384
 		"list.dropBackground": "#a183d333",
 		"list.errorForeground": "#ca0d36",
 		// Status bar
-		"statusBar.background": "#fc4384",
-		"statusBar.noFolderBackground": "#fc4384",
+		"statusBar.background": "#ab45ff",
+		"statusBar.noFolderBackground": "#ab45ff",
 		"statusBar.foreground": "#ffffff",
 		"statusBar.border": "#080808",
+		"statusBarItem.remoteBackground": "#ab45ff", // new
+        "statusBar.remoteBackground": "#ab45ff", // new
 		// Text colors
 		"textLink.foreground": "#fc4384",
 		// Git
@@ -91,6 +93,16 @@
 		"terminal.ansiYellow": "#a553c6"
 	},
 	"tokenColors": [
+		{ // new
+            "name": "Keyword \"new\"",
+            "scope": [
+                "keyword.control.new",
+                "keyword.operator.new"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
 		{
 			"name": "Comment",
 			"scope": [

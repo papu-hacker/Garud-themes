@@ -2,7 +2,7 @@
   "name": "garud-themes",
   "displayName": "Garud-themes",
   "description": "Fork of multiple themes",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "publisher": "Garud-Hacke₹",
   "engines": {
     "vscode": "^1.118.0"
@@ -23,39 +23,44 @@
   "contributes": {
     "themes": [
       {
-        "label": "01_Dracula-Soft",
+        "label": "1_Dracula-Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/01_dracula-theme.json"
       },
       {
-        "label": "02_Dracule-Dark",
+        "label": "2_Dracula-Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/02_beautifull-dracule-theme.json"
+        "path": "./themes/02_dracula-soft.json"
       },
       {
-        "label": "03_Morgan-Code",
+        "label": "3_Dracule-Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/03_morgan-code-theme.json"
+        "path": "./themes/03_beautifull-dracule-theme.json"
       },
       {
-        "label": "04_Catppuccino",
+        "label": "4_Morgan-Code",
         "uiTheme": "vs-dark",
-        "path": "./themes/04_catppuccino-theme.json"
+        "path": "./themes/04_morgan-code-theme.json"
       },
       {
-        "label": "05_Aura-Dark",
+        "label": "5_Catppuccino",
         "uiTheme": "vs-dark",
-        "path": "./themes/05_aura-dark-theme.json"
+        "path": "./themes/05_catppuccino-theme.json"
       },
       {
-        "label": "06_Aura-Soft",
+        "label": "6_Aura-Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/06_aura-soft-theme.json"
+        "path": "./themes/06_aura-dark-theme.json"
       },
       {
-        "label": "07_Aura-Soft-Dark",
+        "label": "7_Aura-Dark-Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/07_aura-soft-dark-theme.json"
+        "path": "./themes/07_aura-soft-theme.json"
+      },
+      {
+        "label": "8_Aura-Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/08_aura-soft-dark-theme.json"
       }
     ]
   }
